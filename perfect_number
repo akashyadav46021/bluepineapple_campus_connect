@@ -1,0 +1,20 @@
+#program to find all perfect numbers between 1 to n
+
+def perfect_no(num):
+  sumoffactors = 0
+
+  #Calculating the sum of Factors
+  for i in range(1,num):
+      if num%i == 0:
+          sumoffactors += i
+
+  return sumoffactors == num
+     
+
+first = int(input("Enter first number \n"))
+sec = int(input("Enter seconf number \n"))
+
+print("Perfect Numbers between {x} and {y}:".format(x=first,y=sec))
+for i in range(first,sec):
+   if perfect_no(i):
+     print(i)
