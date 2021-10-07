@@ -12,7 +12,7 @@ def perfect_no(num):
      
 
 first = int(input("Enter first number \n"))
-sec = int(input("Enter seconf number \n"))
+sec = int(input("Enter second number \n"))
 
 print("Perfect Numbers between {x} and {y}:".format(x=first,y=sec))
 for i in range(first,sec):
