@@ -18,3 +18,17 @@ print("Perfect Numbers between {x} and {y}:".format(x=first,y=sec))
 for i in range(first,sec):
    if perfect_no(i):
      print(i)
+
+""""
+Output :-
+Enter first number 
+1
+Enter second number 
+10000
+Perfect Numbers between 1 and 10000:
+6
+28
+496
+8128
+
+"""
